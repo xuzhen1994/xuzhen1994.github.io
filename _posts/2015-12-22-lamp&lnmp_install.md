@@ -1,4 +1,5 @@
 ---
+date: 2015-12-22 12:00:00
 title: LAMP或LNMP安装指南
 layout: page
 categories: Linux
