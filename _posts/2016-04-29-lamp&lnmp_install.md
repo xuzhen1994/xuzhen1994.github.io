@@ -1,10 +1,6 @@
 ---
 title: LAMP或LNMP安装指南
 layout: default
-categories: Linux
-tags: 
--lnmp
--lamp
 ---
 
 ###介绍###
