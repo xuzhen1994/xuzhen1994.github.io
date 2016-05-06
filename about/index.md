@@ -21,4 +21,4 @@ CSDN博客：[vskou](http://blog.csdn.net/vskou)
 
 你也可以关注我的社交账号：豆瓣：[古都才子](https://www.douban.com/people/xuzhen1024/)
 
-联系方式（最常用）：[xuzhen1994@gmail.com](xuzhen1994@gmail.com)
+联系方式（最常用）：<a href="mailto:xuzhen1994@gmail.com">xuzhen1994@gmail.com</a>
