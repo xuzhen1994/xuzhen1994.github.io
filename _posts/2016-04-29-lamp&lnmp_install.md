@@ -1,6 +1,6 @@
 ---
 title: LAMP或LNMP安装指南
-layout: post
+layout: default
 categories: Linux
 tags: 
 -lnmp
