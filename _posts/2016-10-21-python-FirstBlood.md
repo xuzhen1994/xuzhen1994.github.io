@@ -7,9 +7,9 @@ layout: default
 
 ## Python 标识符
 
-- 以下划线开头的标识符是有特殊意义的。以单下划线开头（_foo）的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用"from xxx import *"而导入；
-- 以双下划线开头的（__foo）代表类的私有成员；以双下划线开头和结尾的（__foo__）代表python里特殊方法专用的标识，如__init__（）代表类的构造函数。
-- 
+- 以下划线开头的标识符是有特殊意义的。以单下划线开头（\_foo）的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用"from xxx import *"而导入；
+- 以双下划线开头的（\__foo）代表类的私有成员；以双下划线开头和结尾的（\__foo\__）代表python里特殊方法专用的标识，如\__init\__()代表类的构造函数。
+
 ## Python保留字符
 
 <table>
@@ -65,9 +65,10 @@ layout: default
     </tr>
 </table>
 
-##行和缩进
+## 行和缩进
 
 Python的代码块不使用大括号（{}）来控制类，函数以及其他逻辑判断。python最具特色的就是用缩进来写模块。
+
 > IndentationError: unexpected indent 
 > 
 >  IndentationError: unindent does not match any outer indentation level
