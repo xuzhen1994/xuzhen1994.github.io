@@ -1,3 +1,8 @@
+---
+title: Python 基础
+layout: default
+---
+
 # 一、基础
 ## Python 标识符
 - 以下划线开头的标识符是有特殊意义的。以单下划线开头（_foo）的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用"from xxx import *"而导入；
