@@ -173,8 +173,40 @@ oct(x )		#将一个整数转换为一个八进制字符串
 | 符号 | 描述 |
 | ------ | ------ |
 | %c | 格式化字符及其ASCII码 |
-|  |  |
-|  |  |
+| %d | 格式化整数 |
+| %u | 格式化无符号整数 |
+| %s | 格式化字符串 |
+| %o | 格式化无符号八进制数 |
+| %x | 格式化无符号十六进制数 |
+| %X | 格式化无符号十六进制数（大写） |
+| %f | 格式化浮点数字，可指定小数点后的精度 |
+| %e | 科学计数法格式化浮点数 |
+| %g | %f和%e的缩写 |
+| %p | 用十六进制数格式化变量的地址 |
+
+#### **python三引号**
+
+三引号允许一个字符串跨多行，字符串中可以包含换行符、制表符以及其他特殊字符。
+
+#### ** python字符串内建函数**
+
+| 方法 | 描述 |
+| ------ | ------ |
+| str.capitalize() | 将字符串的第一个字母变成大写,其他字母变小写 |
+| str.center(width[, fillchar]) | 返回一个原字符串居中,并使用空格填充至长度 width 的新字符串。默认填充字符为空格。 |
+| str.count(sub, start, end) | 返回 str 在 string 里面出现的次数，如果 beg 或者 end 指定则返回指定范围内 str 出现的次数 |
+| str.decode(encoding, errors) | 以 encoding 指定的编码格式解码字符串 |
+| str.encode(encoding, errors) | 以 encoding 指定的编码格式编码字符串 |
+| str.endswith(suffix[, start[, end]]) | 判断字符串是否以指定后缀结尾，如果以指定后缀结尾返回True，否则返回False |
+| str.expandtabs(tabsize) | 把字符串中的 tab 符号('\t')转为空格，tab 符号('\t')默认的空格数是 8 |
+| str.find(str, start, end ) | 检测字符串中是否包含子字符串 str ，如果指定 beg（开始） 和 end（结束） 范围，则检查是否包含在指定范围内，如果包含子字符串返回开始的索引值，否则返回-1 |
+| str.index(str, start, end) | 同find()方法 |
+| str.isalnum() | 检测字符串是否由字母和数字组成 |
+| str.isalpha() | 检测字符串是否只由字母组成 |
+| str.isdigit() | 检测字符串是否只由数字组成 |
+|||
+|||
+|||
 
 ### List（列表）
 
