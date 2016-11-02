@@ -204,28 +204,50 @@ oct(x )		#将一个整数转换为一个八进制字符串
 | str.isalnum() | 检测字符串是否由字母和数字组成 |
 | str.isalpha() | 检测字符串是否只由字母组成 |
 | str.isdigit() | 检测字符串是否只由数字组成 |
-|||
-|||
-|||
+| str.istitle() | 检测字符串中所有的单词拼写首字母是否为大写，且其他字母为小写 |
+| str.join(sequence) | 将序列中的元素以指定的字符连接生成一个新的字符串 |
+| str.ljust(width[, fillchar]) | 返回一个原字符串左对齐,并使用空格填充至指定长度的新字符串。如果指定的长度小于原字符串的长度则返回原字符串 |
+| str.lstrip([chars]) | 截掉字符串左边的空格或指定字符 |
+| str.maketrans(intab, outtab) | 创建字符映射的转换表 |
+| str.partition(str) | 根据指定的分隔符将字符串进行分割 |
+| str.split(str, num) | 指定分隔符对字符串进行切片，如果参数num 有指定值，则仅分隔 num 个子字符串 |
+| str.splitlines() | 按照行('\r', '\r\n', \n')分隔，返回一个包含各行作为元素的列表 |
+| str.startswith(str, beg, end) | 检查字符串是否是以指定子字符串开头 |
+| str.swapcase() | 对字符串的大小写字母进行转换 |
 
 ### List（列表）
 
 列表用[ ]标识。
 
-`list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]`
+```python
+list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
+```
+
+#### **python列表方法**
+
+| 方法 | 描述 |
+| ------ | ------ |
+| list.extend(seq) | 在列表末尾一次性追加另一个序列中的多个值 |
+| list.index(obj) | 从列表中找出某个值第一个匹配项的索引位置 |
+| list.reverse() | 反向列表中元素 |
 
 ### Tuple（元组）
 
 元组用"()"标识。
 元组不能二次赋值，相当于只读列表。
 
-`tuple = ( 'abcd', 786 , 2.23, 'john', 70.2 )`
+```python
+tuple = ( 'abcd', 786 , 2.23, 'john', 70.2 )
+```
 
 ### Dictionary（字典）
 
 字典用"{ }"标识。字典由索引(key)和它对应的值value组成。
 
-`tinydict = {'name': 'john','code':6734, 'dept': 'sales'}`
+```python
+d = {key1 : value1, key2 : value2 }
+tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+```
 
 ## Python数据类型转换
 
