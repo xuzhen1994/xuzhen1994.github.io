@@ -1,5 +1,5 @@
 ---
-title: Python 基础
+title: Python系列（基础一）
 layout: default
 ---
 
