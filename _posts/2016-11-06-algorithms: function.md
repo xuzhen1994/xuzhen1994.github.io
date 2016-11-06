@@ -11,6 +11,6 @@ layout: default
 
 对于一个给定的函数g(n), 用Θ(g(n))来表示以下函数的集合：
 
-** Θ(g(n)) = {f(n): 存在正常量c1、c2和n0，对于所有的n >= n0，有0 <= c1g(n) <= f(n) <= c2g(n)} ** 
+**Θ(g(n)) = {f(n): 存在正常量c1、c2和n0，对于所有的n >= n0，有0 <= c1g(n) <= f(n) <= c2g(n)}** 
 
 我们称g(n)是f(n)的一个**渐近紧确界（asymptotically tight bound）**
