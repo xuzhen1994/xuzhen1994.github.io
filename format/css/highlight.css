@@ -1,7 +1,7 @@
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: rgb(42, 42, 42); }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
-/*.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .err { color: rgba(206, 206, 207, 0.84) } /* Error */
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
 .highlight .o { color: rgba(206, 206, 207, 0.84) } /* Operator */
 .highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
@@ -26,6 +26,7 @@
 .highlight .kt { color: #B00040 } /* Keyword.Type */
 .highlight .m { color: #666666 } /* Literal.Number */
 .highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .n { color: rgba(206, 206, 207, 0.84)}
 .highlight .na { color: #7D9029 } /* Name.Attribute */
 .highlight .nb { color: #008000 } /* Name.Builtin */
 .highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
@@ -44,6 +45,8 @@
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
 .highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .py { color: rgba(206, 206, 207, 0.84)}
+.highlight .p { color: rgba(206, 206, 207, 0.84)}
 .highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
 .highlight .sc { color: #BA2121 } /* Literal.String.Char */
 .highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
