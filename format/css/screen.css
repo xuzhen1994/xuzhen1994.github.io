@@ -163,6 +163,7 @@ p code {
     font-size: 11px;
     border: 1px solid #edebea;
     padding: 2px 4px;
+	color: rgba(206, 206, 207, 0.84);
     background-color: #f7f7f9;
     margin: 0 2px 0 2px;
     -webkit-border-radius: 3px;
