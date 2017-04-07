@@ -3,6 +3,4 @@ url: http://xuzhen1994.github.io
 author: xuzhen
 timezone: Asia/Beijing
 paginate: 20
-markdown: maruku
-maruku:
-  extensions: ["fenced_code_blocks", "tables", "highlight", "with_toc_data", "strikethrough", "underline"]
+markdown: kramdown
