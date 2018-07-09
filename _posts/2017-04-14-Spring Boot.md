@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Spring Boot
+
 ---
 
 # Spring Boot
@@ -35,18 +36,29 @@ devtools
 ```
 
 disable cache
+
 Restart vs Reload
+
 base classloader    restart classloader
+
 log
+
 spring.devtools.restart.log-condition-evaluation-delta=false
+
 exculde
+
 `spring.devtools.restart.exclude=static/**,public/**`
+
 spring.devtools.restart.enabled
+
 Trigger File
+
 spring.devtools.restart.trigger-file
+
 LiveReload: can trigger a browser refresh when a resource is changed
 
 SpringApplication.run
+
 SpringApplicationBuilder 
 
 Application Events
