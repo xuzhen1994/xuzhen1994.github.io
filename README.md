@@ -1,2 +1,1 @@
-# xuzhen1994.github.io
-个人博客
+### [个人博客](https://xuzhen1994.github.io)
