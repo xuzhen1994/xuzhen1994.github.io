@@ -1,14 +1,15 @@
 ---
-title: Categories
+title: 分类
 layout: page
 ---
 
 <div id='tag_cloud'>
 {% for cat in site.categories %}
-<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
+<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}"><h3><strong>{{ cat[0] }} ({{ cat[1].size }})</strong></h3></a>&nbsp&nbsp
 {% endfor %}
 </div>
-
+<br />
+<br />
 <ul class="listing">
 {% for cat in site.categories %}
   <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
