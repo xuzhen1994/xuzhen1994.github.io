@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spring Boot
-
+category: 技术
 ---
 
 # Spring Boot

@@ -1,6 +1,7 @@
 ---
 title: Python系列（基础一）
 layout: default
+category: 技术
 ---
 
 # 一、基础

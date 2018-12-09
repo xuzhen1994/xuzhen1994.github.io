@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 《精益创业实战》读书笔记
+category: 阅读
 ---
 
 # 译者序 #

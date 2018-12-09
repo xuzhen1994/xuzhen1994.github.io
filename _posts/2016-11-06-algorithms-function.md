@@ -1,6 +1,7 @@
 ---
 title:  算法拾记：函数
 layout: default
+category: 技术
 ---
 
 # 函数的增长

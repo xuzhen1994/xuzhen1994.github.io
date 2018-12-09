@@ -1,6 +1,7 @@
 ---
 title: LAMP或LNMP安装指南
 layout: default
+category: 技术
 ---
 
 ###介绍

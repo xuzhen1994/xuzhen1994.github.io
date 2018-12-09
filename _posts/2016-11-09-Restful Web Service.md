@@ -1,6 +1,7 @@
 ---
 title: REST web service
 layout: default
+category: 技术
 ---
 
 # Restful Web Service

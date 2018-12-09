@@ -1,6 +1,7 @@
 ---
 title: 算法拾记：排序
 layout: default
+category: 技术
 ---
 
 # 排序问题
