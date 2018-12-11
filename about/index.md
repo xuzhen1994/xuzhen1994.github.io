@@ -9,16 +9,48 @@ layout: page
    
 ---
 
-**许朕，菜鸟软件工程师。目前从事广联达集团工程效率提升工作。
-热爱Linux和各种开源产品，DevOps入门，对各种前沿科技抱有浓厚的兴趣，数码产品爱好者。**
+许朕
+
+2011 - 2015 西安电子科技大学 · 软件工程
+
+技能点：
+
+（熟练） Java、Spring框架、JavaScript、vue.js、Linux Ops、Docker、Git、HTML、CSS
+
+（了解） React.js、Python、MySQL
+
+（激活中） Kubernetes、Groovy
+
+研发过程 工具/技术实践：
+
+- 工具链
+
+   （精通）JIRA
+
+   （熟悉）Jenkins、Confluence、SonarQube
+
+   （了解）Bitbucket、Fisheye
+
+   （激活中）Artifactory
+- 技术实践
+
+   （熟悉） 敏捷开发（Scrum / Kanban）、CI、CodeReivew、CodeScan（静态扫描）
+
+   （了解） CD（持续交付）、SCM（代码配置管理）
+
+   （激活中） Unit Test、TDD
+
+斜杠青年：JAVA后台开发工程师 / 前端工程师（vue.js） / DevOps工程师（Docker） / ...
+
+工作经历：
+
+2015.08 —— 至今 [广联达](http://www.glodon.com)
+- 集团工程效率提升（20% 工程效率 + 80% 开发）。
+
+项目经历：
+
+2017.01 —— 至今 [集团研发管理平台信息透视](http://gc.glodon.com)
 
 ---
 
-博客：
-Github：[xuzhen1994](http://github.com/xuzhen1994)
-CSDN博客：[vskou](http://blog.csdn.net/vskou)
-51CTO博客：[xuzhen1024](http://xuzhen1024.blog.51cto.com/)
-
-你也可以关注我的社交账号：豆瓣：[古都才子](https://www.douban.com/people/xuzhen1024/)
-
-联系方式（最常用）：<a href="mailto:xuzhen1994@gmail.com">xuzhen1994@gmail.com</a>
+联系方式：<a href="mailto:xuzhen1994@gmail.com">xuzhen1994@gmail.com</a>
