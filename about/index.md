@@ -1,6 +1,6 @@
 ---
 title: 关于
-layout: page
+layout: about
 ---
 
 贫僧自东土大唐而来，往西天取经而去。
