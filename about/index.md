@@ -6,6 +6,8 @@ layout: about
 #### 斜杠青年 ####
 JAVA后台开发工程师 / 前端工程师（vue.js） / DevOps工程师（Docker） / ...
 
+---
+
 #### 技能点 ####
 
 **（熟练）** Java、Spring框架、JavaScript、vue.js、Linux Ops、Docker、Git、HTML、CSS
@@ -13,6 +15,8 @@ JAVA后台开发工程师 / 前端工程师（vue.js） / DevOps工程师（Dock
 **（了解）** React.js、Python、MySQL
 
 **（激活中）** Kubernetes、Groovy
+
+---
 
 #### 工具/技术实践 ####
 
