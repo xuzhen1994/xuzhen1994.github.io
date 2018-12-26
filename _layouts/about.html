@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }} | {{ site.author }}</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="shortcut icon" href="/format/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../format/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../format/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../format/css/ionicons.min.css">
+    <link rel="stylesheet" href="../format/plugins/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<section class="content">
+
+    <div class="row">
+        <div class="col-md-9">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#skills" data-toggle="tab">技能</a></li>
+                    <li><a href="#timeline" data-toggle="tab">工作经历</a></li>
+                    <li><a href="#energy" data-toggle="tab">能量源泉</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="active tab-pane" id="skills">
+                        {{ content }}
+                    </div>
+                    <!-- /.tab-pane -->
+                    <div class="tab-pane" id="timeline">
+                        <!-- The timeline -->
+                        <ul class="timeline timeline-inverse">
+                            <!-- timeline time label -->
+                            <li class="time-label">
+                        <span class="bg-red">
+                          2015.07
+                        </span>
+                            </li>
+                            <li>
+                                <i class="fa fa-user bg-aqua"></i>
+
+                                <div class="timeline-item">
+                                    <h3 class="timeline-header no-border">毕业了，怀着对未来的憧憬和忐忑，加入了
+                                        <a href="https://www.glodon.com" target="_blank">广联达</a>。
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="time-label">
+                        <span class="bg-green">
+                          2016.01
+                        </span>
+                            </li>
+                            <!-- /.timeline-label -->
+                            <!-- timeline item -->
+                            <li>
+                                <i class="fa fa-camera bg-purple"></i>
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+
+                                    <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+
+                                    <div class="timeline-body">
+                                        <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                        <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                        <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                        <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- END timeline item -->
+                            <li>
+                                <i class="fa fa-clock-o bg-gray"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.tab-pane -->
+
+                    <div class="tab-pane" id="energy">
+                    </div>
+                    <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+            </div>
+            <!-- /.nav-tabs-custom -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3">
+
+            <!-- Profile Image -->
+            <div class="box box-primary">
+                <div class="box-body box-profile">
+                    <img class="profile-user-img img-responsive img-circle" src="../pictures/自己（大学）.jpg"
+                         alt="User profile picture">
+                    <h3 class="profile-username text-center">许朕</h3>
+                    <p class="text-muted text-center">全栈工程师（Dev + Ops）</p>
+                    <ul class="list-group list-group-unbordered">
+                        <li class="list-group-item">
+                            <b>阅读</b>
+                            <a class="pull-right" href="https://book.douban.com/people/xuzhen1024/collect"
+                               target="_blank">47</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>电影</b>
+                            <a class="pull-right" href="https://movie.douban.com/people/xuzhen1024/collect"
+                               target="_blank">980</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>作品</b>
+                            <a class="pull-right"
+                               href="https://github.com/xuzhen1994?utf8=%E2%9C%93&tab=repositories&q=&type=source&language="
+                               target="_blank">1</a>
+                        </li>
+                    </ul>
+                    <a href="mailto:xuzhen1994@gmail.com" class="btn btn-primary btn-block"><b>联系我</b></a>
+                </div>
+            </div>
+
+            <!-- About Me Box -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">关于我</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <strong><i class="fa fa-book margin-r-5"></i> 教育</strong>
+
+                    <p class="text-muted" title="B.S. in Software Engineering from the Xidian University">
+                        软件工程 · 西安电子科技大学
+                    </p>
+
+                    <hr>
+
+                    <strong><i class="fa fa-map-marker margin-r-5"></i> 位置</strong>
+
+                    <p class="text-muted" title="BeiJing, China">北京, 中国</p>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+</section>
+
+<script src="../format/js/jquery.min.js"></script>
+<script src="../format/js/bootstrap.min.js"></script>
+<script src="../format/plugins/AdminLTE-2.4.5/dist/js/adminlte.min.js"></script>
+<script src="../format/plugins/AdminLTE-2.4.5/dist/js/demo.js"></script>
+</body>
+</html>
