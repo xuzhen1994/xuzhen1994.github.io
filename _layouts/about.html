@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../format/css/font-awesome.min.css">
     <link rel="stylesheet" href="../format/css/ionicons.min.css">
     <link rel="stylesheet" href="../format/plugins/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
-
+    <link href="/format/css/screen.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,9 +18,17 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-
-<section class="content">
+<body background="http://xuzhen1994.github.io/pictures/background.jpg">
+<section class="content-header">
+    <h1>{{ page.title }}</h1>
+    <div class="buttons">
+        <a href="/" class="ss-icon" title="主页"><i class="fa fa-home"></i>主页</a>
+        <a href="/categories" class="ss-icon" title="分类" ><i class="fa fa-list"></i>分类</a>
+        <a href="/tags" class="ss-icon" title="标签" ><i class="fa fa-tags"></i>标签</a>
+        <a href="/about" class="ss-icon" title="关于我" ><i class="fa fa-user"></i>我</a>
+    </div>
+</section>
+<section class="content" style="width: 85%">
 
     <div class="row">
         <div class="col-md-9">
