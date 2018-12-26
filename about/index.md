@@ -3,38 +3,32 @@ title: 关于
 layout: about
 ---
 
-贫僧自东土大唐而来，往西天取经而去。
+### 斜杠青年： ### 
+JAVA后台开发工程师 / 前端工程师（vue.js） / DevOps工程师（Docker） / ...
 
-   ————知道自己是谁，从哪里来，要到哪里去的人是了不起的。
-   
----
+### 技能点： ###
 
-斜杠青年：JAVA后台开发工程师 / 前端工程师（vue.js） / DevOps工程师（Docker） / ...
+**（熟练）** Java、Spring框架、JavaScript、vue.js、Linux Ops、Docker、Git、HTML、CSS
 
-技能点：
+**（了解）** React.js、Python、MySQL
 
-（熟练） Java、Spring框架、JavaScript、vue.js、Linux Ops、Docker、Git、HTML、CSS
+**（激活中）** Kubernetes、Groovy
 
-（了解） React.js、Python、MySQL
-
-（激活中） Kubernetes、Groovy
-
-研发过程 工具/技术实践：
+### 工具/技术实践： ###
 
 - 工具链
 
-   （精通）JIRA
+   **（精通）** JIRA
 
-   （熟悉）Jenkins、Confluence、SonarQube
+   **（熟悉）** Jenkins、Confluence、SonarQube
 
-   （了解）Bitbucket、Fisheye
+   **（了解）** Bitbucket、Fisheye
 
-   （激活中）Artifactory
+   **（激活中）** Artifactory
 - 技术实践
 
-   （熟悉） 敏捷开发（Scrum / Kanban）、CI、CodeReivew、CodeScan（静态扫描）
+   **（熟悉）** 敏捷开发（Scrum / Kanban）、CI、CodeReivew、CodeScan（静态扫描）
 
-   （了解） CD（持续交付）、SCM（代码配置管理）
+   **（了解）** CD（持续交付）、SCM（代码配置管理）
 
-   （激活中） Unit Test、TDD
-
+   **（激活中）** Unit Test、TDD
