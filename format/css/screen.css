@@ -95,8 +95,6 @@ body{
 
 body>div {
     width: 85%;
-    min-width: 32em;
-    max-width: 50em;
     padding: 3em 3em 1.5em;
     margin: 3em auto;
     background-color: #fff;
