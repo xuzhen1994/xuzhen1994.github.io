@@ -40,7 +40,7 @@ var saolei = function(height, width, num) {
     // 计算周边地雷个数
     for (let i = 0; i < height; i++) {
         for (let j = 0; j < width; j++) {
-            if (isFinite(map[i][j])) {
+            if (map[i][j] == Infinity) {
                 let up = i - 1;
                 let down = i + 1;
                 let left = j - 1;
@@ -53,7 +53,8 @@ var saolei = function(height, width, num) {
                     if(right < width) {
                         map[up][right] += 1;
                     }
-                } else {
+                } 
+                if(down < height) {
                     if (left >= 0) {
                         map[down][left] += 1;
                     }
@@ -69,9 +70,7 @@ var saolei = function(height, width, num) {
                     map[i][right] += 1;
                 }
             }
-            
         }
-        
     }
 
 }
