@@ -18,7 +18,7 @@ var saolei = function(height, width, num) {
     for (let i = 0; i < height; i++) {
         let col = [];
         for (let j = 0; j < width; j++) {
-            col.push(count);
+            col.push(0);
             count++;
         }
         map.push(col);
@@ -33,8 +33,45 @@ var saolei = function(height, width, num) {
         if(map[posiY][posiX] == -1) {
             index--;
         } else {
-            map[posiY][posiX] = -1;
+            map[posiY][posiX] = Infinity;
         }
+    }
+
+    // 计算周边地雷个数
+    for (let i = 0; i < height; i++) {
+        for (let j = 0; j < width; j++) {
+            if (isFinite(map[i][j])) {
+                let up = i - 1;
+                let down = i + 1;
+                let left = j - 1;
+                let right = j + 1;
+                if(up >= 0) {
+                    if (left >= 0) {
+                        map[up][left] += 1;
+                    }
+                    map[up][j] += 1;
+                    if(right < width) {
+                        map[up][right] += 1;
+                    }
+                } else {
+                    if (left >= 0) {
+                        map[down][left] += 1;
+                    }
+                    map[down][j] += 1;
+                    if (right < width) {
+                        map[down][right] += 1;
+                    }
+                }
+                if (left >= 0) {
+                    map[i][left] += 1;
+                }
+                if (right < width) {
+                    map[i][right] += 1;
+                }
+            }
+            
+        }
+        
     }
 
 }
